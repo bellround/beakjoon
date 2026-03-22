@@ -1,3 +1,5 @@
+import sys
+input = sys.stdin.readline #시간 초과 해결을 위해 입력을 효율적으로 바꿈
 a = []
 for i in range(int(input())):
     b = list(map(str, input().split()))
